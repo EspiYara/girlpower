@@ -100,16 +100,16 @@ button.btn-black:hover {
 #home section.section-2 {
 	height: 400px;
 }
-#home section.section-2 div.container,
+/*#home section.section-2 div.container,
 #home section.section-3 div.container {
 	height: auto;
 	display: flex;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	justify-content: space-evenly;
-}
+}*/
 #home section.section-2 div.container div.box-card {
-	width: 29%;
+	/*width: 29%;*/
 	height: 360px;
 	background-color: #ffe979;
 	border-radius: 36px;
@@ -140,7 +140,7 @@ button.btn-black:hover {
 	margin: 20px 0px 0px 0px;
 }
 #home section.section-2 div.container div.box-info {
-	width: 36%;
+	/*width: 36%;*/
 	height: 360px;
 }
 #home section.section-2 div.container div.box-card p.txt-info {
@@ -173,13 +173,13 @@ button.btn-black:hover {
 	background-size: contain;
 	height: 460px;
 }
-#home section.section-3 div.container div.box-info {
+/*#home section.section-3 div.container div.box-info {
 	width: 20%;
 	height: 360px;
-}
-#home section.section-3 div.container div.box-fantasma {
+}*/
+/*#home section.section-3 div.container div.box-fantasma {
 	width: 45%;
-}
+}*/
 #home section.section-3 div.container div.box-info h3.txt-title2 {
 	font-size: 35px;
 	font-weight: 700;
@@ -197,13 +197,13 @@ button.btn-black:hover {
 
 /*HOME SECCION 4*/
 #home section.section-4 div.container {
-	width: 100%;
+	/*width: 100%;*/
 	height: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 #home section.section-4 div.container div.box-info {
-	width: 50%;
+	/*width: 50%;*/
 	height: auto;
 	text-align: center;
 	margin: auto;
@@ -223,59 +223,38 @@ button.btn-black:hover {
 	font-weight: 400;
 	color: #000;
 }
-#home section.section-4 div.container div.container-interno {
-	width: 100%;
+#home section.section-4 div.container {
+	/*width: 100%;*/
 	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 50px;
 }
-#home section.section-4 div.container div.container-interno div.card-user {
-	width: 25%;
+#home section.section-4 div.container div.card-user {
+	/*width: 25%;*/
 	height: auto;
 	display: grid;
 }
-#home
-	section.section-4
-	div.container
-	div.container-interno
-	div.card-user
-	img.img-user {
-	width: auto;
+#home section.section-4 div.card-user img.img-user {
+	/*width: auto;*/
 	height: 90px;
 	margin: auto;
 }
-#home
-	section.section-4
-	div.container
-	div.container-interno
-	div.card-user
-	p.txt-testimonio {
+#home section.section-4 div.card-user p.txt-testimonio {
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
 	text-align: center;
 	font-style: italic;
 }
-#home
-	section.section-4
-	div.container
-	div.container-interno
-	div.card-user
-	p.txt-nombre {
+#home section.section-4 div.card-user p.txt-nombre {
 	font-size: 16px;
 	font-weight: 600;
 	color: #000;
 	text-align: center;
 	margin: 0;
 }
-#home
-	section.section-4
-	div.container
-	div.container-interno
-	div.card-user
-	p.txt-nombre
-	span {
+#home section.section-4 div.card-user p.txt-nombre span {
 	font-size: 16px;
 	font-weight: 400;
 	color: #8b4394;
