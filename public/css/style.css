@@ -26,19 +26,10 @@ header div.box-logo .img-logo {
 	height: 100px;
 }
 /*MENU*/
-nav.menu {
-	text-align: center;
-	margin-top: 50px;
-}
-nav.menu ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-nav.menu ul li {
-	display: inline-block;
-	text-align: center;
-	padding: 5px 30px;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	color: #a62080;
+	text-decoration: underline;
+	background-color: transparent;
 }
 nav.menu ul li a {
 	color: #000;
@@ -97,18 +88,18 @@ button.btn-black:hover {
 	margin-top: 5px;
 }
 /*HOME SECCION 2*/
-#home section.section-2 {
+/*#home section.section-2 {
 	height: 400px;
-}
-/*#home section.section-2 div.container,
-#home section.section-3 div.container {
+}*/
+/*#home section.section-2,
+#home section.section-3 {
 	height: auto;
 	display: flex;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	justify-content: space-evenly;
 }*/
-#home section.section-2 div.container div.box-card {
+#home section.section-2 div.box-card {
 	/*width: 29%;*/
 	height: 360px;
 	background-color: #ffe979;
@@ -120,46 +111,46 @@ button.btn-black:hover {
 	padding: 25px;
 	box-sizing: border-box;
 }
-#home section.section-2 div.container div.box-card img.img-adorno {
+#home section.section-2 div.box-card img.img-adorno {
 	width: auto;
 	height: 260px;
 	float: right;
 	margin-top: -120px;
 	margin-right: -100px;
 }
-#home section.section-2 div.container div.box-card p.txt-destacado {
+#home section.section-2 div.box-card p.txt-destacado {
 	font-size: 16px;
 	font-weight: 600;
 	color: #95722d;
 	margin: 0;
 }
-#home section.section-2 div.container div.box-card h3.txt-title {
+#home section.section-2 div.box-card h3.txt-title {
 	font-size: 25px;
 	font-weight: 600;
 	color: #000;
 	margin: 20px 0px 0px 0px;
 }
-#home section.section-2 div.container div.box-info {
-	/*width: 36%;*/
-	height: 360px;
+#home section.section-2 div.box-info {
+	/*width: 36%;
+	height: 360px;*/
 }
-#home section.section-2 div.container div.box-card p.txt-info {
+#home section.section-2 div.box-card p.txt-info {
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
 	width: 60%;
 }
-#home section.section-2 div.container div.box-info h3.txt-title2 {
+#home section.section-2 div.box-info h3.txt-title2 {
 	font-size: 35px;
 	font-weight: 700;
 	color: #98328a;
 	margin-top: 0;
 }
-#home section.section-2 div.container div.box-info span {
+#home section.section-2 div.box-info span {
 	font-weight: 400;
 	color: #000;
 }
-#home section.section-2 div.container div.box-info p.txt2 {
+#home section.section-2 div.box-info p.txt2 {
 	font-size: 18px;
 	font-weight: 400;
 	color: #000;
@@ -167,70 +158,66 @@ button.btn-black:hover {
 
 /*HOME SECCION 3*/
 #home section.section-3 {
-	background-image: url(../img/home/background.png);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 460px;
+	background-color: #fea500;
 }
-/*#home section.section-3 div.container div.box-info {
+/*#home section.section-3 div.box-info {
 	width: 20%;
 	height: 360px;
 }*/
-/*#home section.section-3 div.container div.box-fantasma {
+/*#home section.section-3 div.box-fantasma {
 	width: 45%;
 }*/
-#home section.section-3 div.container div.box-info h3.txt-title2 {
+#home section.section-3 div.box-info h3.txt-title2 {
 	font-size: 35px;
 	font-weight: 700;
 	color: #000;
 	margin-top: 0;
 }
-#home section.section-3 div.container div.box-info span {
+#home section.section-3 div.box-info span {
 	font-weight: 400;
 }
-#home section.section-3 div.container div.box-info p.txt2 {
+#home section.section-3 div.box-info p.txt2 {
 	font-size: 18px;
 	font-weight: 400;
 	color: #000;
 }
 
 /*HOME SECCION 4*/
-#home section.section-4 div.container {
+#home section.section-4 {
 	/*width: 100%;*/
 	height: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-#home section.section-4 div.container div.box-info {
+#home section.section-4 div.box-info {
 	/*width: 50%;*/
 	height: auto;
 	text-align: center;
 	margin: auto;
 }
-#home section.section-4 div.container div.box-info h3.txt-title2 {
+#home section.section-4 div.box-info h3.txt-title2 {
 	font-size: 35px;
 	font-weight: 700;
 	color: #98328a;
 	margin-top: 0;
 }
-#home section.section-4 div.container div.box-info span {
+#home section.section-4 div.box-info span {
 	font-weight: 400;
 	color: #000;
 }
-#home section.section-4 div.container div.box-info p.txt2 {
+#home section.section-4 div.box-info p.txt2 {
 	font-size: 18px;
 	font-weight: 400;
 	color: #000;
 }
-#home section.section-4 div.container {
+#home section.section-4 {
 	/*width: 100%;*/
 	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 50px;
 }
-#home section.section-4 div.container div.card-user {
+#home section.section-4 div.card-user {
 	/*width: 25%;*/
 	height: auto;
 	display: grid;
@@ -599,4 +586,113 @@ footer {
 	margin-top: 70px;
 	background-color: #f7f7f7;
 	padding: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,800&display=swap");
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+.row:after,
+.row:before {
+	display: inline-block !important;
+}
+
+.btn-orange {
+	font-family: "Barlow" !important;
+	font-weight: 500 !important;
+	height: 35px;
+	border-radius: 8px !important;
+	font-size: 14px;
+	width: 100%;
+	background: #ff3d00;
+	color: #fff !important;
+	padding: 8px 20px !important;
+}
+
+.btn-orange:hover {
+	background-color: #fff;
+	border-color: #ff3d00;
+	color: #ff3d00 !important;
+	text-decoration: none;
+}
+
+.btn-green {
+	font-family: "Barlow" !important;
+	font-weight: 500 !important;
+	height: 35px;
+	border-radius: 8px !important;
+	font-size: 14px;
+	width: 100%;
+	background: #42e8b4;
+	color: #020247 !important;
+	padding: 8px 20px !important;
+}
+
+.btn-green:hover {
+	background-color: #fff;
+	border-color: #42e8b4;
+	color: #42e8b4 !important;
+	text-decoration: none;
+}
+
+.btn-blue {
+	font-family: "Barlow" !important;
+	font-weight: 500 !important;
+	height: 35px;
+	border-radius: 8px !important;
+	font-size: 14px;
+	width: 100%;
+	background: #002eff;
+	color: #fff !important;
+	padding: 8px 20px !important;
+}
+
+.btn-blue:hover {
+	background-color: #fff;
+	border-color: #002eff;
+	color: #002eff !important;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 321px) {
+}
+
+@media only screen and (min-width: 411px) {
+}
+
+@media only screen and (min-width: 568px) {
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	/*HOME SECCION 3*/
+	#home section.section-3 {
+		background-image: url(../img/home/background.png);
+		background-color: transparent;
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 460px;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1023px) {
+}
+@media only screen and (min-width: 1200px) {
 }
