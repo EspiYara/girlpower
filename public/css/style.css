@@ -113,10 +113,10 @@ button.btn-black:hover {
 }
 #home section.section-2 div.box-card img.img-adorno {
 	width: auto;
-	height: 260px;
+	height: 220px;
 	float: right;
 	margin-top: -120px;
-	margin-right: -100px;
+	margin-right: -60px;
 }
 #home section.section-2 div.box-card p.txt-destacado {
 	font-size: 16px;
@@ -655,23 +655,7 @@ body {
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 321px) {
-}
 
-@media only screen and (min-width: 411px) {
-}
-
-@media only screen and (min-width: 568px) {
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	/*HOME SECCION 3*/
 	#home section.section-3 {
@@ -682,17 +666,10 @@ body {
 		background-size: contain;
 		height: 460px;
 	}
+	#home section.section-2 div.box-card img.img-adorno {
+		height: 260px;
+		margin-right: -100px;
+	}
 }
 
-@media only screen and (min-width: 800px) {
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1023px) {
-}
-@media only screen and (min-width: 1200px) {
-}
