@@ -66,8 +66,6 @@ button.btn-black:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 400px;
-	margin-top: 50px;
-	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -87,27 +85,10 @@ button.btn-black:hover {
 	color: #000;
 	margin-top: 5px;
 }
-/*HOME SECCION 2*/
-/*#home section.section-2 {
-	height: 400px;
-}*/
-/*#home section.section-2,
-#home section.section-3 {
-	height: auto;
-	display: flex;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	justify-content: space-evenly;
-}*/
 #home section.section-2 div.box-card {
-	/*width: 29%;*/
 	height: 360px;
 	background-color: #ffe979;
 	border-radius: 36px;
-	/*background-image: url(../img/home/img-card.png);
-	background-repeat: no-repeat;
-	background-position: bottom right;
-	background-size: 60%;*/
 	padding: 25px;
 	box-sizing: border-box;
 }
@@ -129,10 +110,6 @@ button.btn-black:hover {
 	font-weight: 600;
 	color: #000;
 	margin: 20px 0px 0px 0px;
-}
-#home section.section-2 div.box-info {
-	/*width: 36%;
-	height: 360px;*/
 }
 #home section.section-2 div.box-card p.txt-info {
 	font-size: 16px;
@@ -160,13 +137,6 @@ button.btn-black:hover {
 #home section.section-3 {
 	background-color: #fea500;
 }
-/*#home section.section-3 div.box-info {
-	width: 20%;
-	height: 360px;
-}*/
-/*#home section.section-3 div.box-fantasma {
-	width: 45%;
-}*/
 #home section.section-3 div.box-info h3.txt-title2 {
 	font-size: 35px;
 	font-weight: 700;
@@ -184,13 +154,9 @@ button.btn-black:hover {
 
 /*HOME SECCION 4*/
 #home section.section-4 {
-	/*width: 100%;*/
 	height: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 #home section.section-4 div.box-info {
-	/*width: 50%;*/
 	height: auto;
 	text-align: center;
 	margin: auto;
@@ -211,19 +177,16 @@ button.btn-black:hover {
 	color: #000;
 }
 #home section.section-4 {
-	/*width: 100%;*/
 	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 50px;
 }
 #home section.section-4 div.card-user {
-	/*width: 25%;*/
 	height: auto;
 	display: grid;
 }
 #home section.section-4 div.card-user img.img-user {
-	/*width: auto;*/
 	height: 90px;
 	margin: auto;
 }
