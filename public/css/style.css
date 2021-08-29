@@ -13,34 +13,6 @@ button {
 p {
 	margin: 5px 0px;
 }
-/*HEADER*/
-header {
-	margin-top: 30px;
-}
-header div.box-logo {
-	margin: auto;
-	text-align: center;
-}
-header div.box-logo .img-logo {
-	width: auto;
-	height: 100px;
-}
-/*MENU*/
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-	color: #a62080;
-	text-decoration: underline;
-	background-color: transparent;
-}
-nav.menu ul li a {
-	color: #000;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: 600;
-}
-nav.menu ul li a:hover {
-	color: #a62080;
-	text-decoration: underline;
-}
 
 /*BOTON*/
 button.btn-black {
@@ -59,32 +31,7 @@ button.btn-black:hover {
 	color: #000;
 }
 
-/*HOME BANNER*/
-#home section.section-banner {
-	background-image: url(../img/home/banner.png);
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#home section.section-banner div.box1 {
-	text-align: center;
-}
-#home section.section-banner div.box1 h1 {
-	font-size: 45px;
-	font-weight: 700;
-	color: #a62080;
-	margin-bottom: 5px;
-}
-#home section.section-banner div.box1 p {
-	font-size: 18px;
-	font-weight: 400;
-	color: #000;
-	margin-top: 5px;
-}
+
 #home section.section-2 div.box-card {
 	height: 360px;
 	background-color: #ffe979;
@@ -152,64 +99,6 @@ button.btn-black:hover {
 	color: #000;
 }
 
-/*HOME SECCION 4*/
-#home section.section-4 {
-	height: auto;
-}
-#home section.section-4 div.box-info {
-	height: auto;
-	text-align: center;
-	margin: auto;
-}
-#home section.section-4 div.box-info h3.txt-title2 {
-	font-size: 35px;
-	font-weight: 700;
-	color: #98328a;
-	margin-top: 0;
-}
-#home section.section-4 div.box-info span {
-	font-weight: 400;
-	color: #000;
-}
-#home section.section-4 div.box-info p.txt2 {
-	font-size: 18px;
-	font-weight: 400;
-	color: #000;
-}
-#home section.section-4 {
-	height: auto;
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 50px;
-}
-#home section.section-4 div.card-user {
-	height: auto;
-	display: grid;
-}
-#home section.section-4 div.card-user img.img-user {
-	height: 90px;
-	margin: auto;
-}
-#home section.section-4 div.card-user p.txt-testimonio {
-	font-size: 16px;
-	font-weight: 400;
-	color: #000;
-	text-align: center;
-	font-style: italic;
-}
-#home section.section-4 div.card-user p.txt-nombre {
-	font-size: 16px;
-	font-weight: 600;
-	color: #000;
-	text-align: center;
-	margin: 0;
-}
-#home section.section-4 div.card-user p.txt-nombre span {
-	font-size: 16px;
-	font-weight: 400;
-	color: #8b4394;
-	text-align: center;
-}
 
 /*NOSOTROS*/
 #about section.section-nosotros {
@@ -551,72 +440,6 @@ footer {
 	padding: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,800&display=swap");
-body {
-	margin: 0;
-	overflow-x: hidden;
-}
-.row:after,
-.row:before {
-	display: inline-block !important;
-}
-
-.btn-orange {
-	font-family: "Barlow" !important;
-	font-weight: 500 !important;
-	height: 35px;
-	border-radius: 8px !important;
-	font-size: 14px;
-	width: 100%;
-	background: #ff3d00;
-	color: #fff !important;
-	padding: 8px 20px !important;
-}
-
-.btn-orange:hover {
-	background-color: #fff;
-	border-color: #ff3d00;
-	color: #ff3d00 !important;
-	text-decoration: none;
-}
-
-.btn-green {
-	font-family: "Barlow" !important;
-	font-weight: 500 !important;
-	height: 35px;
-	border-radius: 8px !important;
-	font-size: 14px;
-	width: 100%;
-	background: #42e8b4;
-	color: #020247 !important;
-	padding: 8px 20px !important;
-}
-
-.btn-green:hover {
-	background-color: #fff;
-	border-color: #42e8b4;
-	color: #42e8b4 !important;
-	text-decoration: none;
-}
-
-.btn-blue {
-	font-family: "Barlow" !important;
-	font-weight: 500 !important;
-	height: 35px;
-	border-radius: 8px !important;
-	font-size: 14px;
-	width: 100%;
-	background: #002eff;
-	color: #fff !important;
-	padding: 8px 20px !important;
-}
-
-.btn-blue:hover {
-	background-color: #fff;
-	border-color: #002eff;
-	color: #002eff !important;
-	text-decoration: none;
-}
 
 
 @media only screen and (min-width: 768px) {
