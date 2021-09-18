@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Contacto | GirlPower®</title>
+		<meta name="title" content="Contacto | GirlPower®">
+		<meta name="description" content="GirlPower® : ponte en contacto con nosotros y te ayudaremos en lo que necesites.">
+		<meta name="keywords" content="contactanos, formulario, hablanos, escribenos">
+
+		<meta name="robots" content="noindex">
+		<meta name="googlebot" content="noindex">
 		<!--CSS BOOTSTRAP-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,18 +23,18 @@
 	</head>
 	<body>
 		<!--HEADER-->
-		<header>
-			<div class="box-logo">
+		<header class="header">
+			<div class="header__logo">
 				<img
 					src="public/img/header/logo.png"
 					alt="logo girl power"
-					class="img-logo"
+					class="header__imglogo"
 				/>
 			</div>
 		</header>
 
-			<!--MENU-->
-			<nav
+		<!--MENU-->
+		<nav
 			class="menu navbar navbar-expand-lg navbar-light mt-3"
 			aria-label="Twelfth navbar example"
 		>
@@ -51,21 +57,21 @@
 				>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="index.html"
+							<a class="menu__links--a" aria-current="page" href="index.html"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="conoceme.html">Conoceme</a>
+							<a class="menu__links--a active" href="conoceme.html">Conoceme</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="servicios.html">Servicios</a>
+							<a class="menu__links--a" href="servicios.html">Servicios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="blog.html">Blog</a>
+							<a class="menu__links--a" href="blog.html">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contacto.html">Contacto</a>
+							<a class="menu__links--a" href="contacto.html">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -73,92 +79,97 @@
 		</nav>
 
 		<main id="contacto">
-			<section class="form">
+			<section class="form mt-5">
 				<div class="container">
-					<div class="formu">
-						<form action="">
-							<fieldset class="box-form">
-								<legend>¡Hola! Escríbeme</legend>
-								<div class="box-label">
-									<label for="Nombre">Nombre Completo</label>
-									<br />
-									<input
-										class="datos"
-										type="text"
-										name="Nombre"
-										id="nombre"
-										placeholder="Violeta López"
-									/>
-								</div>
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="col-12 col-lg-4">
+							<div class="formu__box">
+								<form action="">
+									<fieldset">
+										<legend class="formu__box--title">¡Hola! Escríbeme</legend>
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="Nombre">Nombre Completo</label>
+											<br />
+											<input
+												class="formu__box--setupDatos"
+												type="text"
+												name="Nombre"
+												id="nombre"
+												placeholder="Violeta López"
+											/>
+										</div>
+		
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="email">Email</label>
+											<br />
+											<input
+												class="formu__box--setupDatos"
+												type="email"
+												name="email"
+												id="email"
+												placeholder="usuario@mail.com"
+											/>
+										</div>
+		
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="password">Contraseña</label>
+											<br />
+											<input
+												class="formu__box--setupDatos"
+												type="password"
+												name="password"
+												id="nombre"
+												placeholder="contraseña"
+											/>
+										</div>
+		
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="presupuesto">Presupuesto</label>
+											<input
+											class="formu__box--setupPresupuesto"
+												type="radio"
+												name="servicio"
+												value="pres"
+											/>
+											<label class="formu__box--setupLabel" for="cotizacion">Cotización</label>
+		
+											<input
+												type="radio"
+												id="cotizacion"
+												name="servicio"
+												value="fem"
+											/>
+										</div>
+		
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="newsletter">Inscribete</label>
+											<input
+												type="checkbox"
+												id="newslatter"
+												name="newslatter"
+												value="yes"
+											/>
+										</div>
+		
+										<div class="formu__box--label">
+											<label class="formu__box--setupLabel" for="talle">¿Cómo llegaste?</label>
+											<select name="talle" id="talle">
+												<option value="rrss">Redes sociales</option>
+												<option value="amigo">Amigo</option>
+												<option value="ads">Publicidad</option>
+											</select>
+										</div>
+		
+										<input class="formu__box--setupEnviar" type="submit" value="Enviar" />
+									</fieldset>
+								</form>
+							</div>
+						</div>
 
-								<div class="box-label">
-									<label for="email">Email</label>
-									<br />
-									<input
-										class="datos"
-										type="email"
-										name="email"
-										id="email"
-										placeholder="usuario@mail.com"
-									/>
-								</div>
-
-								<div class="box-label">
-									<label for="password">Contraseña</label>
-									<br />
-									<input
-										class="datos"
-										type="password"
-										name="password"
-										id="nombre"
-										placeholder="contraseña"
-									/>
-								</div>
-
-								<div class="box-label">
-									<label for="presupuesto">Presupuesto</label>
-									<input
-										type="radio"
-										id="Presupuesto"
-										name="servicio"
-										value="pres"
-									/>
-									<label for="cotizacion">Cotización</label>
-
-									<input
-										type="radio"
-										id="cotizacion"
-										name="servicio"
-										value="fem"
-									/>
-								</div>
-
-								<div class="box-label">
-									<label for="newsletter">Inscribete</label>
-									<input
-										type="checkbox"
-										id="newslatter"
-										name="newslatter"
-										value="yes"
-									/>
-								</div>
-
-								<div class="box-label">
-									<label for="talle">¿Cómo llegaste?</label>
-									<select name="talle" id="talle">
-										<option value="rrss">Redes sociales</option>
-										<option value="amigo">Amigo</option>
-										<option value="ads">Publicidad</option>
-									</select>
-								</div>
-
-								<input class="enviar" type="submit" value="Enviar" />
-							</fieldset>
-						</form>
-					</div>
-
-					<div class="box-img">
-						<div class="img-contacto"></div>
+						<div class="col-12 col-lg-4">
+							<div class="formu__img--contacto">
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

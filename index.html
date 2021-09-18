@@ -3,7 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title>GirlPower®</title>
+		<meta name="title" content=" Agencia Digital | GirlPower®" />
+		<meta
+			name="description"
+			content="GirlPower® es una agencia digital con servicios variados que haran crecer tu negocio. Expertos en marketing digital con trayectoria y clientes que nos respaldan"
+		/>
+		<meta
+			name="keywords"
+			content="Agencia Digital, páginas web, branding, marcas, logos"
+		/>
+
+		<meta name="robots" content="noindex" />
+		<meta name="googlebot" content="noindex" />
+
 		<!--CSS BOOTSTRAP-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -13,13 +27,6 @@
 		/>
 		<!--CSS-->
 		<link rel="stylesheet" href="public/css/style.css" />
-		<link rel="stylesheet" href="public/scss/style.css">
-		<!--JS bootstrap-->
-		<script
-			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-			integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-			crossorigin="anonymous"
-		></script>
 	</head>
 	<body>
 		<!--HEADER-->
@@ -57,21 +64,24 @@
 				>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="menu__links--a active" aria-current="page" href="index.html"
+							<a
+								class="menu__links--a active"
+								aria-current="page"
+								href="index.html"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="menu__links--a " href="conoceme.html">Conoceme</a>
+							<a class="menu__links--a" href="conoceme.html">Conoceme</a>
 						</li>
 						<li class="nav-item">
-							<a class="menu__links--a " href="servicios.html">Servicios</a>
+							<a class="menu__links--a" href="servicios.html">Servicios</a>
 						</li>
 						<li class="nav-item">
-							<a class="menu__links--a " href="blog.html">Blog</a>
+							<a class="menu__links--a" href="blog.html">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="menu__links--a " href="contacto.html">Contacto</a>
+							<a class="menu__links--a" href="contacto.html">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -80,7 +90,7 @@
 
 		<main id="home">
 			<!--BANNER PRINCIPAL-->
-			<section class="hero mt-3">
+			<section class="hero mt-5">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -144,14 +154,16 @@
 			</section>
 
 			<!--SECCION 2-->
-			<section class="section-2 mt-3">
+			<section class="mt-5">
 				<div class="container">
-					<div class="row justify-content-evenly">
+					<div class="row justify-content-evenly align-items-center">
 						<div class="col-12 col-lg-4">
-							<div class="box-card">
-								<p class="txt-destacado">Lorem ipsun</p>
-								<h3 class="txt-title">Lorem ipsum dolor<br />sit amet</h3>
-								<p class="txt-info">
+							<div class="box__card">
+								<p class="box__card--destacado">Lorem ipsun</p>
+								<h3 class="box__card--title">
+									Lorem ipsum dolor<br />sit amet
+								</h3>
+								<p class="box__card--info">
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat
@@ -159,21 +171,23 @@
 								<img
 									src="public/img/home/img-card.png"
 									alt=""
-									class="img-adorno"
+									class="box__card--adorno"
 								/>
 							</div>
 						</div>
 
 						<div class="col-12 col-lg-4">
-							<div class="box-info">
-								<h3 class="txt-title2">Lorem <span>ipsum</span></h3>
-								<p class="txt2">
+							<div class="box__info">
+								<h3 class="box__info--title">
+									Lorem <span class="box__info--span">ipsum</span>
+								</h3>
+								<p class="box__info--parrafo">
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat, sed diam voluptua. At vero eos et accusam et
 									justo duo dolores et ea rebum.
 								</p>
-								<button type="button" class="btn btn-black" id="liveToastBtn">
+								<button type="button" class="btn btn__black" id="liveToastBtn">
 									Prueba toast
 								</button>
 
@@ -211,13 +225,15 @@
 			</section>
 
 			<!--SECCION 3-->
-			<section class="section-3 d-flex align-items-center mt-3">
+			<section class="banner__info d-flex align-items-center mt-5">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-lg-4">
 							<div class="box-info">
-								<h3 class="txt-title2">Lorem <span>ipsum</span></h3>
-								<p class="txt2">
+								<h3 class="banner__info--title">
+									Lorem <span class="banner__info--span">ipsum</span>
+								</h3>
+								<p class="banner__info--text">
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -233,12 +249,14 @@
 			</section>
 
 			<!--SECCION 4-->
-			<section class="team mt-3">
+			<section class="team mt-5">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-12 col-lg-6">
 							<div class="team__box">
-								<h3 class="team__h3title">Lorem <span class="team_span">ipsum</span></h3>
+								<h3 class="team__h3title">
+									Lorem <span class="team_span">ipsum</span>
+								</h3>
 								<p class="team__parrafo">
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
@@ -261,7 +279,9 @@
 									“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut.”
 								</p>
-								<p class="team__card--nombre">Lorem, <span class="team__card-span">ipsum dolor sit</span></p>
+								<p class="team__card--nombre">
+									Lorem, <span class="team__card-span">ipsum dolor sit</span>
+								</p>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 mt-4">
@@ -275,7 +295,9 @@
 									“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut.”
 								</p>
-								<p class="team__card--nombre">Lorem, <span class="team__card-span">ipsum dolor sit</span></p>
+								<p class="team__card--nombre">
+									Lorem, <span class="team__card-span">ipsum dolor sit</span>
+								</p>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 mt-4">
@@ -289,7 +311,9 @@
 									“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut.”
 								</p>
-								<p class="team__card--nombre">Lorem, <span class="team__card-span">ipsum dolor sit</span></p>
+								<p class="team__card--nombre">
+									Lorem, <span class="team__card-span">ipsum dolor sit</span>
+								</p>
 							</div>
 						</div>
 					</div>

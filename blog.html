@@ -4,6 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Blog | GirlPower®</title>
+		<meta name="title" content="Blog | GirlPower®" />
+		<meta
+			name="description"
+			content="GirlPower® : Revisa todos mnuestras notas que te ayudarán a entender la importancia que tienen nuestros servicios para poder ayudar a potenciar tu empresa"
+		/>
+		<meta name="keywords" content="blog, noticias, entretención" />
+
+		<meta name="robots" content="noindex" />
+		<meta name="googlebot" content="noindex" />
 		<!--CSS BOOTSTRAP-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -16,18 +25,18 @@
 	</head>
 	<body>
 		<!--HEADER-->
-		<header>
-			<div class="box-logo">
+		<header class="header">
+			<div class="header__logo">
 				<img
 					src="public/img/header/logo.png"
 					alt="logo girl power"
-					class="img-logo"
+					class="header__imglogo"
 				/>
 			</div>
 		</header>
 
-			<!--MENU-->
-			<nav
+		<!--MENU-->
+		<nav
 			class="menu navbar navbar-expand-lg navbar-light mt-3"
 			aria-label="Twelfth navbar example"
 		>
@@ -50,21 +59,21 @@
 				>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="index.html"
+							<a class="menu__links--a" aria-current="page" href="index.html"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="conoceme.html">Conoceme</a>
+							<a class="menu__links--a active" href="conoceme.html">Conoceme</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="servicios.html">Servicios</a>
+							<a class="menu__links--a" href="servicios.html">Servicios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="blog.html">Blog</a>
+							<a class="menu__links--a" href="blog.html">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contacto.html">Contacto</a>
+							<a class="menu__links--a" href="contacto.html">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -72,52 +81,71 @@
 		</nav>
 
 		<main id="blog">
-			<section class="section-banner">
+			<section class="blog__banner">
 				<div>
-					<h1>Lorem, ipsum dolor.</h1>
-					<button class="btn-black">lorem</button>
+					<h1 class="blog__banner--title">Lorem, ipsum dolor.</h1>
+					<button class="btn__black">lorem</button>
 				</div>
 			</section>
 
-			<div class="grilla">
-				<div class="card1 a">
-					<div>
-						<img
-							src="../Girlpower-Espinoza/public/img/internas/img-blog.png"
-							alt="descripcion del articulo"
-							class="img-articulo"
-						/>
-						<h3>Titulo</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat.
-						</p>
+			<section class="mt-5">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-lg-8">
+							<div class="blog__articulo">
+								<h3 class="blog__articulo--title">Titulo</h3>
+								<p class="blog__articulo--text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quaerat.
+								</p>
+								<button class="btn__black">Lorem Ipsum</button>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-4">
+							<div class="blog__articulo">
+								<h3 class="blog__articulo--title">Titulo</h3>
+								<p class="blog__articulo--text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quaerat.
+								</p>
+								<button class="btn__black">Lorem Ipsum</button>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-3 mt-5">
+							<div class="blog__articulo">
+								<h3 class="blog__articulo--title">Titulo</h3>
+								<p class="blog__articulo--text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quaerat.
+								</p>
+								<button class="btn__black">Lorem Ipsum</button>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6 mt-5">
+							<div class="blog__articulo">
+								<h3 class="blog__articulo--title">Titulo</h3>
+								<p class="blog__articulo--text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quaerat.
+								</p>
+								<button class="btn__black">Lorem Ipsum</button>
+							</div>
+						</div>
+						<div class="col-12 col-lg-3 mt-5">
+							<div class="blog__articulo">
+								<h3 class="blog__articulo--title">Titulo</h3>
+								<p class="blog__articulo--text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quaerat.
+								</p>
+								<button class="btn__black">Lorem Ipsum</button>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="card1 b">
-					<div>
-						<h3>Titulo</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat.
-						</p>
-					</div>
-				</div>
-				<div class="card1 c">
-					<div>
-						<h3>Titulo</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat.
-						</p>
-					</div>
-				</div>
-				<div class="card1 d">
-					<div>
-						<h3>Titulo</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat.
-						</p>
-					</div>
-				</div>
-			</div>
+			</section>
 		</main>
 
 		<footer>Copy<strong>Raaawr</strong> &copy; 2021</footer>

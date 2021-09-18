@@ -1,0 +1,86 @@
+/*NOSOTROS*/
+.aboutHero {
+	background-image: url(../img/internas/img-conocenos.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin-top: 50px;
+	padding-top: 40px;
+	align-items: center;
+  display: grid;
+
+    .aboutBox__title {
+      font-size: 50px;
+      font-style: italic;
+      color: #fea500;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .aboutBox__subtitle {
+      font-size: 20px;
+      color: #000000;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 0;
+      line-height: 1.5;
+    }
+  }
+
+
+
+/*SECCION INFORMACION*/
+.aboutInfo {
+	height: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: space-evenly;
+}
+.aboutInfo__box--title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #98328a;
+}
+.aboutInfo__box--text{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+}
+
+.aboutInfo__box--li {
+	list-style-type: disclosure-closed;
+	list-style-position: inside;
+	font-size: 14px;
+	line-height: 2;
+}
+.aboutInfo__box--li::marker {
+	color: #fea500;
+}
+
+#about section.section-info div.box-der {
+	width: 40%;
+	height: auto;
+}
+
+.aboutInfo__table{
+	border: solid 2px #a62080;
+	border-radius: 10px;
+  width: 100%;
+  
+  .aboutInfo__table--th {
+    background-color: #ccc;
+  }
+  .aboutInfo__table--td {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .aboutInfo__table--price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #a62080;
+  }
+}
+
