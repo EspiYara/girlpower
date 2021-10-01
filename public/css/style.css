@@ -51,8 +51,8 @@ a:hover {
   background-image: url(../img/home/banner.png);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+  background-size: auto;
+  height: 290px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -63,11 +63,6 @@ a:hover {
     font-weight: 700;
     color: #a62080;
     margin-bottom: 5px; }
-  .hero .hero__parrafo {
-    font-size: 18px;
-    font-weight: 400;
-    color: #000;
-    margin-top: 5px; }
 
 /*Section 2 INFO EMPRESA*/
 .box__card {
@@ -114,13 +109,17 @@ a:hover {
     color: #000; }
 
 /*Section 3 INFO BANNER*/
+.banner__info--container {
+  display: flex;
+  align-items: flex-end; }
+
 .banner__info {
   background-image: url(../img/home/background.png);
   background-color: transparent;
-  background-position: right;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 460px; }
+  height: 540px; }
   .banner__info .banner__info--title {
     font-size: 35px;
     font-weight: 700;
@@ -178,13 +177,8 @@ a:hover {
 
 /*NOSOTROS*/
 .aboutHero {
-  background-image: url(../img/internas/img-conocenos.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 300px;
   margin-top: 50px;
-  padding-top: 40px;
   align-items: center;
   display: grid; }
   .aboutHero .aboutBox__title {
@@ -225,6 +219,24 @@ a:hover {
   .aboutInfo .aboutInfo__box--li::marker {
     color: #fea500; }
 
+.card__team {
+  display: grid;
+  justify-content: center; }
+  .card__team .card__team--avatar {
+    width: auto;
+    height: 250px;
+    border-radius: 100px; }
+  .card__team .card__team--name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-align: center; }
+  .card__team .card__team--cargo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    text-align: center; }
+
 .box__table {
   background-color: transparent; }
   .box__table .box__table--title {
@@ -249,30 +261,34 @@ a:hover {
 
 /*SERVICIOS*/
 .serv__hero {
-  background-color: #000;
-  height: 200px; }
+  background-image: url(../img/internas/bg-servicios.jpg);
+  height: 350px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .serv__hero .serv__hero--title {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     color: #ffffff;
-    -o-text-overflow: clip;
-    text-overflow: clip;
-    white-space: pre;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
-    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); }
-  .serv__hero .serv__hero--title:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fab511, 0 0 70px #fab511, 0 0 80px #fab511, 0 0 100px #fab511; }
+    text-align: right; }
+  .serv__hero .serv__hero--bajada {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    text-align: right; }
 
 .serv__card {
   background-color: #f9f9f9;
   height: auto;
   border-radius: 10px;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  height: 250px;
+  position: relative;
+  display: grid;
+  justify-items: center; }
   .serv__card .serv__card--title {
     font-size: 20px;
     font-weight: 600;
@@ -283,29 +299,48 @@ a:hover {
     font-weight: 400;
     color: #000;
     text-align: center; }
-  .serv__card .serv__card--ul {
-    margin-top: 30px; }
-  .serv__card .serv__card--li {
-    font-size: 14px;
-    font-weight: 600;
-    color: #8b4394;
-    text-align: left; }
+  .serv__card .serv__card--btn {
+    position: absolute;
+    bottom: 0px; }
 
 /*BLOG*/
 .blog__banner {
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  background-image: url(../img/internas/hero-shop.jpg);
+  background-size: cover;
   height: 250px;
   margin-top: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0px 200px;
-  text-align: center; }
+  justify-content: center; }
   .blog__banner .blog__banner--title {
     font-size: 50px;
     font-weight: 600;
-    color: #000; }
+    color: #fff; }
+
+.blog__articulo--01 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/internas/article3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blog__articulo--02 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/internas/blog-post-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blog__articulo--03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/internas/blog-post-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blog__articulo--04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/internas/blog-posts-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blog__articulo--05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/internas/blog-post-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .blog__articulo {
   height: 190px;
@@ -315,7 +350,6 @@ a:hover {
   align-items: center;
   display: grid;
   justify-items: center;
-  background-image: url(../img/internas/img-blog.png);
   background-position: center; }
   .blog__articulo .blog__articulo:hover {
     background: #eeaeca;
@@ -323,12 +357,12 @@ a:hover {
   .blog__articulo .blog__articulo--title {
     font-size: 20px;
     font-weight: 600;
-    color: #a62080;
+    color: #fff;
     text-align: center; }
   .blog__articulo .blog__articulo--text {
     font-size: 16px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
     text-align: center; }
 
 /*CONTACTO*/
@@ -374,3 +408,40 @@ a:hover {
   background-position: center;
   background-size: contain;
   height: 300px; }
+
+@media (min-width: 576px) {
+  .hero {
+    background-size: cover;
+    height: 400px; }
+  .banner__info {
+    background-position: right;
+    height: 460px; } }
+
+@media (min-width: 768px) {
+  .aboutHero {
+    background-image: url(../img/internas/img-conocenos.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .box__card .box__card--adorno {
+    height: 180px; }
+  .banner__info {
+    background-position: top center;
+    height: 620px; }
+  .serv__hero {
+    background-image: url(../img/internas/bg-servicios.jpg);
+    height: 350px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain; } }
+
+@media (min-width: 992px) {
+  .box__card .box__card--adorno {
+    height: 240px; }
+  .banner__info {
+    height: 400px;
+    background-position-x: 380px; } }
+
+@media (min-width: 1200px) {
+  .banner__info {
+    background-position-x: right; } }
